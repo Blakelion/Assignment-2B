@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+        <meta name="mobile-web-app-capable" content="yes"/>
+        <title>Assignment 2B</title>
+        <meta name="description" content="ENG1003 Assignment 1 S2 2015">
+        <meta name="author" content="Moses Yi-Jie Wan">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        <link rel="shortcut icon" sizes="196x196" href="bubble-icon.png"/>
+        <link rel="apple-touch-icon-precomposed" href="bubble-icon.png"/>
+    <!-- links for mdl , js and css -->
+        <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.indigo-pink.min.css">
+        <script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    </head>
+
+    <body>
+        <style>
+            .mdl-layout-title{
+                left: 39%;
+            }
+            .mdl-data-table.mdl-js-data-table.mdl-shadow--2dp{
+                position: absolute;
+                top: 20%;
+                left: 10%;
+            }
+            .mdl-data-table__cell--non-numeric{
+                background-color: aqua;
+            }
+            #something{
+                background-color: blue;
+                font-size: 18px;
+                text-align: center;
+                border: solid blue 3px;
+            }
+            .mdl-button.mdl-js-button.mdl-button--raised.mdl-button--colored{
+                right: 25%;
+                bottom: 20%;
+            }
+            .confirm{
+                color: white;
+            }
+        </style>
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+          <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+              <!-- Title -->
+              <span class="mdl-layout-title">DO IT!</span>
+              <!-- Add spacer, to align navigation to the right -->
+              <div class="mdl-layout-spacer"></div>
+              <!-- Navigation. We hide it in small screens. -->
+              <nav class="mdl-navigation mdl-layout--large-screen-only">
+                <!--<a class="mdl-navigation__link" href="">Link</a>
+                <a class="mdl-navigation__link" href="">Link</a>
+                <a class="mdl-navigation__link" href="">Link</a>
+                <a class="mdl-navigation__link" href="">Link</a>-->
+              </nav>
+            </div>
+          </header>
+      <!--div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Title</span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="">Link</a>
+          <a class="mdl-navigation__link" href="">Link</a>
+          <a class="mdl-navigation__link" href="">Link</a>
+          <a class="mdl-navigation__link" href="">Link</a>
+        </nav>
+      </div-->
+        </div>
+      <main class="mdl-layout__content">
+        <div class="page-content"><!-- Your content goes here -->
+            </div>
+            <div>
+                <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+                  <thead>
+                    <tr>
+                        <th class="mdl-data-table__cell--non-numeric" id="something">Welcome!</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                          <form action="#">
+                              <div class="mdl-textfield mdl-js-textfield">
+                                <input class="mdl-textfield__input" type="text" id="sample1" />
+                                <label class="mdl-textfield__label" for="sample1">Username...</label>
+                              </div>
+                          </form>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <form action="#">
+                              <div class="mdl-textfield mdl-js-textfield">
+                                <input class="mdl-textfield__input" type="text" id="sample2" />
+                                <label class="mdl-textfield__label" for="sample2">Password...</label>
+                              </div>
+                        </form>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                          <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+                              <a href="Assignment%202B%20-%20MainPage.html" class="confirm">
+                                Login
+                              </a>
+                          </button>
+                          <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+                              <a href="Assignment%202B%20-%20MainPage.html" class="confirm">
+                                Sign Up
+                              </a>
+                          </button>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+      </main>
+    
+
+</body>
+
+</html>
