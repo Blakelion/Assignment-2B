@@ -1,0 +1,166 @@
+# Assignment-2B
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+        <meta name="mobile-web-app-capable" content="yes"/>
+        <title>Assignment 2B</title>
+        <meta name="description" content="ENG1003 Assignment 1 S2 2015">
+        <meta name="author" content="Moses Yi-Jie Wan">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        <link rel="shortcut icon" sizes="196x196" href="bubble-icon.png"/>
+        <link rel="apple-touch-icon-precomposed" href="bubble-icon.png"/>
+    <!-- links for mdl , js and css -->
+        <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.indigo-pink.min.css">
+        <script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    </head>
+
+    <body>
+        <style>
+            #help{
+                padding-top:10%;
+            }
+            td {
+                padding-bottom: 40%;
+                padding-top: 10%;
+            }
+            
+            .road {
+                font-size: 40px;
+            }
+            
+            #Round{
+                position: absolute;
+                top:80%;
+                left:47.5%;
+            }
+            
+            .round-button {
+                width:25%;
+                padding-top: 1%;
+            }
+            
+            .round-button-circle {
+                width: 20%;
+                height: 0px;
+                padding-bottom: 20%;
+                border-radius: 50%;
+                border:2px solid #cfdcec;
+                overflow:hidden;
+
+                background: aqua; 
+                box-shadow: 0 0 3px gray;
+                display: inline-block;
+            }
+            
+            .round-button-circle:hover {
+                background:#30588e;
+            }
+            
+            .round-button a {
+                background:url('road.png');
+                display:block;
+                float:left;
+                width:100%;
+                padding-top:8%;
+                padding-bottom:50%;
+                line-height:1em;
+                margin-top:-0.5em;
+
+                text-align:center;
+                color:#e2eaf3;
+                font-family:Verdana;
+                font-size:12px;
+                font-weight:bold;
+                text-decoration:none;
+            }
+            
+            #schedule {
+                border-top: solid black 1px;
+            }
+            
+            .mdl-layout-title{
+                font-weight: bold;
+                font-size: 40px;
+                color: firebrick;
+            }
+            
+            .mdl-navigation__link{
+                font-weight: bold;
+                font-size: 16px;
+            }            
+            
+            #title {
+                color: white;
+            }
+            
+            #title:hover {
+                color: yellowgreen;
+            }
+            
+            #home{
+                padding-top: 0%;
+                position: relative;
+            }
+            
+        </style>
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-tabs">
+          <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+              <!-- Title -->
+              <span class="mdl-layout-title" id="title">DO IT !</span>
+              <!-- Add spacer, to align navigation to the right -->
+              <div class="mdl-layout-spacer"></div>
+              <!-- Navigation -->
+              <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="tutorial.html"><i class="material-icons" id="help">help outline</i></a>
+              </nav>
+            </div>
+          </header>
+                <div class="mdl-layout__drawer">
+                    <span class="mdl-layout-title">DO IT!</span>
+                    
+                        <nav class="mdl-navigation">
+                              <a class="mdl-navigation__link" id="schedule" href="Schedule.html">Schedule</a>
+                              <a class="mdl-navigation__link" href="">Achievement</a>
+                              <a class="mdl-navigation__link" href="">Recent Activity</a>
+                              <a class="mdl-navigation__link" href="">Profile</a>
+                              <a class="mdl-navigation__link" href="">Option</a>
+                        </nav>
+                </div>
+            <main>
+                <table>
+                    <tbody class="road">
+                        <tr>
+                          <td>
+                            Distance:
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Time:
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                              Average Speed: 
+                          </td>
+                        </tr>
+                      </tbody>
+                  </table>
+                
+                <div class="round-button" id="Round">
+                    <div class="round-button-circle">
+                        <a class="round-button" href="home.html">
+                            <span class="road">
+                                <img src="home.png" height="70" width="70" id="home"></img>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+        </div>
+            </main> 
+    </body>
+</html>
