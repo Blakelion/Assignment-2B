@@ -1,0 +1,138 @@
+# Assignment-2B
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+        <meta name="mobile-web-app-capable" content="yes"/>
+        <title>Assignment 2B</title>
+        <meta name="description" content="ENG1003 Assignment 1 S2 2015">
+        <meta name="author" content="Moses Yi-Jie Wan">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        <link rel="shortcut icon" sizes="196x196" href="bubble-icon.png"/>
+        <link rel="apple-touch-icon-precomposed" href="bubble-icon.png"/>
+    <!-- links for mdl , js and css -->
+        <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.indigo-pink.min.css">
+        <script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    </head>
+
+    <body>
+        <style>
+            #title{
+                font-size: 24px;
+            }
+            #Round {
+            position: absolute;
+            top: 80%;
+            padding-left: 47.5%;
+            }
+            
+            .round-button {
+                width:25%;
+            }
+            
+            .round-button-circle {
+                width: 20%;
+                height: 0px;
+                padding-bottom: 20%;
+                border-radius: 50%;
+                border:2px solid #cfdcec;
+                overflow:hidden;
+
+                background: pink; 
+                box-shadow: 0 0 3px gray;
+                display: inline-block;
+            }
+            
+            .round-button-circle:hover {
+                background:#30588e;
+            }
+            
+            .round-button a {
+                background:url('road.png');
+                display:block;
+                float:left;
+                width:100%;
+                padding-top:8%;
+                padding-bottom:50%;
+                line-height:1em;
+                margin-top:-0.5em;
+
+                text-align:center;
+                color:#e2eaf3;
+                font-family:Verdana;
+                font-size:12px;
+                font-weight:bold;
+                text-decoration:none;
+                bottom: 30%;
+            }
+            
+            .schedule{
+                font-size: 40px;
+            }
+            
+            td{
+                padding-top:10%;
+                padding-bottom: 15%;
+                
+            }
+            
+            #home{
+                padding-bottom: 50%;
+                position: relative;
+            }
+            
+            .border{
+                border: solid black 1px;
+            }
+            
+            #startbutton{
+                position: absolute;
+                top: 80%;
+                left: 45%;
+            }
+            
+            a{
+                font-size: 24px;
+                color: black;
+            }
+            
+            .seven {
+                position: relative;
+                z-index: 1;
+                left: -13%;
+            }
+        </style>
+        
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-tabs">
+          <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+              <!-- Title -->
+              <span class="mdl-layout-title" id="title">Tutorial</span>
+            </div>
+          </header>
+
+        <main class="mdl-layout__content">
+            <div class="page-content">
+                
+                <a>1. Press <img src="menu.png" height="16"></img> Menu button for list.</a></br>
+                <a>2. Press Schedule in list to plan your day.</a></br>
+                <a>3. Press Achievemnt in list to look previous achievement.</a></br>
+                <a>4. Press Recent Activity in list to check recent Activity.</a></br>
+                <a>5. Press Profile in list to edit Profile.</a></br>
+                <a>6. Press Option in list to edit layout.</a></br>
+                <a>7. Press <i class="material-icons" id="help">help outline</i><span class="seven"> to enter tutorial.</span></a></br>
+                <a>8. Press <img src="home.png" height="16"></img> Home Button to return home.</a></br>
+                <a>9. Press <img src="road.png" height="16"></img> Route to check navigation.</a></br>
+                <a>10. Press <img src="race-track-clip-art2.jpg" height="16"></img>Journey Detail to check distance travelled, time taken, average speed.</a></br>
+                <a>11. Press <img src="startbutton.jpg" height="16"></img>Start/Stop Button to start/stop journey.</a></br>
+            
+             </div>
+<button id="startbutton" style="width:200px; height:60px; font-size:30px;"><a href="home.html">Continue</a></button>
+        </main>
+
+            
+        </div>
+    </body>
+</html>
