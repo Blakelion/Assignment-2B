@@ -1,0 +1,118 @@
+# Assignment-2B
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+        <meta name="mobile-web-app-capable" content="yes"/>
+        <title>Assignment 2B</title>
+        <meta name="description" content="ENG1003 Assignment 1 S2 2015">
+        <meta name="author" content="Moses Yi-Jie Wan">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        <link rel="shortcut icon" sizes="196x196" href="bubble-icon.png"/>
+        <link rel="apple-touch-icon-precomposed" href="bubble-icon.png"/>
+    <!-- links for mdl , js and css -->
+        <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.indigo-pink.min.css">
+        <script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    </head>
+
+    <body>
+        <style>
+            #title{
+                font-size: 24px;
+            }
+            #Round {
+            position: absolute;
+            top: 80%;
+            padding-left: 47.5%;
+            }
+            
+            .round-button {
+                width:25%;
+            }
+            
+            .round-button-circle {
+                width: 20%;
+                height: 0px;
+                padding-bottom: 20%;
+                border-radius: 50%;
+                border:2px solid #cfdcec;
+                overflow:hidden;
+
+                background: pink; 
+                box-shadow: 0 0 3px gray;
+                display: inline-block;
+            }
+            
+            .round-button-circle:hover {
+                background:#30588e;
+            }
+            
+            .round-button a {
+                background:url('road.png');
+                display:block;
+                float:left;
+                width:100%;
+                padding-top:8%;
+                padding-bottom:50%;
+                line-height:1em;
+                margin-top:-0.5em;
+
+                text-align:center;
+                color:#e2eaf3;
+                font-family:Verdana;
+                font-size:12px;
+                font-weight:bold;
+                text-decoration:none;
+                bottom: 30%;
+            }
+            
+            #home{
+                padding-bottom: 50%;
+                position: relative;
+            }
+            
+            #logo{
+                padding-left: 30.5%;
+                position:absolute;
+            }
+            
+            #startTutorial{
+                position: absolute;
+                top: 70%;
+                left: 32.5%;
+            }
+            
+            #skipTutorial{
+                position: absolute;
+                top: 80%;
+                left: 32.5%;
+            }
+            
+        </style>
+        
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-tabs">
+          <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+              <!-- Title -->
+              <span class="mdl-layout-title" id="title">DO IT!</span>
+            </div>
+          </header>
+
+        <main class="mdl-layout__content">
+            <div class="page-content">
+                
+                <img src="logo.png" width="450" height="350" id="logo"></img>                
+            
+             </div>
+            
+            <button id="startTutorial" style="width:400px; height:60px; font-size:40px;"><a href="tutorial.html">Start Tutorial</a></button>
+            <button id="skipTutorial" style="width:400px; height:60px; font-size:40px;"><a href="home.html">Skip Tutorial</a></button>
+            
+        </main>
+
+            
+        </div>
+    </body>
+</html>
